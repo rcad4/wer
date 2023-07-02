@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('assets/images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#landingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#3dModel {
+    width: 80%;
+    height: 80%;
+}
+
+@import url('assets/css/3dModel.css');
